@@ -7,4 +7,4 @@ build:
 	@docker build --no-cache -t $(IMAGE_NAME):${VERSION} -t $(IMAGE_NAME):latest .
 
 push:
-	@docker push ssuareza/$(IMAGE_NAME):${VERSION}
+	@docker push $(IMAGE_NAME):${VERSION}
